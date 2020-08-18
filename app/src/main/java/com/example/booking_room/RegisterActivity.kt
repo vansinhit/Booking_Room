@@ -16,7 +16,7 @@ class RegisterActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_register)
+        setContentView(R.layout.activity_register) //
 
         val btnBack = findViewById<Button>(R.id.btn_back)
         val btnSignUp = findViewById<Button>(R.id.btn_sign_up)

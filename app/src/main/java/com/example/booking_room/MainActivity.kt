@@ -18,6 +18,6 @@ class MainActivity : AppCompatActivity() {
             intent = Intent(this, LoginActivity::class.java)
             startActivity(intent)
             finish()
-        }, 4000)
+        }, 4000) //
     }
 }
